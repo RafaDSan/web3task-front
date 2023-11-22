@@ -1,0 +1,7 @@
+query authorizedPersonnelsQuery {
+  authorizePersonnels(first: 2) {
+    roleId
+    isAuthorized
+    authorizedAddress
+  }
+}

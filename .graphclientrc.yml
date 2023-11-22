@@ -1,0 +1,7 @@
+sources:
+  - name: TasksManager
+    handler:
+      graphql:
+        endpoint: https://api.studio.thegraph.com/query/57887/web3task-mumbai-testnet/version/latest
+documents:
+  - ./queries/authorized_personnel.graphql
